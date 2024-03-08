@@ -1,0 +1,57 @@
+ \input{preamble/static}
+ %\includegraphics
+
+\newcommand{\papersizeswitch}[3]{\ifnum\strcmp{\papersize}{#1}=0#2\else#3\fi}
+\papersizeswitch{a4paper}{\def\classfontsize{10pt}}{\def\classfontsize{12pt}}
+
+\documentclass[\classfontsize,\papersize,oneside,extrafontsizes]{memoir}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{multicol}
+\usepackage{ragged2e}
+% \setlength{\columnseprule}{1pt}
+% \setlength{\columnsep}{0.1mm}
+\input{preamble/general}
+\input{preamble/fonts}
+\input{preamble/etc}
+
+
+\addbibresource{bibliography/bibliography.bib}
+
+\begin{document}
+\renewcommand{\tablename}{Tabla} %Cambia la leyenda cuadro por la leyenda tabla
+\renewcommand{\listtablename}{Índice de tablas} %Cambia la leyenda Índice de Cuadros por Índice de tablas
+
+\prefrontmatter
+\include{prefrontmatter/titlepage}
+\cleartoevenpage
+\include{prefrontmatter/colophon}
+\clearforchapter
+\ifDocInterno{
+\include{prefrontmatter/versioning}
+} \fi
+
+\clearforchapter
+
+\frontmatter
+\include{frontmatter/docInfo}
+ \include{frontmatter/intro}
+\clearforchapter
+\tableofcontents
+\clearforchapter
+\listoffigures
+\clearforchapter
+%\mylistoftodos
+\renewcommand{\listtablename}{Índice de tablas} %Cambia la leyenda Índice de Cuadros por Índice de tablas
+\renewcommand{\tablename}{Tabla}
+%\listoftables
+\mainmatter
+\include{chapters/Caracteristicas}
+
+\include{chapters/Legal}
+
+\appendix
+% \include{appendices/Appendix}
+% \include{appendices/Acronyms}
+
+% \printbibliography
+\end{document}
