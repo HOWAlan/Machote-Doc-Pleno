@@ -5,34 +5,14 @@ Reallocating 'name_of_file' (item size: 1) to 29 items.
 A level-1 auxiliary file: prefrontmatter/titlepage.aux
 Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: prefrontmatter/colophon.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: prefrontmatter/versioning.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: frontmatter/docInfo.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: frontmatter/intro.aux
 Reallocating 'name_of_file' (item size: 1) to 29 items.
 A level-1 auxiliary file: chapters/Caracteristicas.aux
-Reallocating 'name_of_file' (item size: 1) to 26 items.
-A level-1 auxiliary file: chapters/introduccion.aux
-Reallocating 'name_of_file' (item size: 1) to 31 items.
-A level-1 auxiliary file: chapters/argumentosPropios.aux
-Reallocating 'name_of_file' (item size: 1) to 26 items.
-A level-1 auxiliary file: chapters/protocolo_ok.aux
-Reallocating 'name_of_file' (item size: 1) to 27 items.
-A level-1 auxiliary file: chapters/protocolo_nok.aux
-Reallocating 'name_of_file' (item size: 1) to 22 items.
-A level-1 auxiliary file: chapters/conector.aux
-Reallocating 'name_of_file' (item size: 1) to 25 items.
-A level-1 auxiliary file: chapters/vinculacion.aux
-Reallocating 'name_of_file' (item size: 1) to 22 items.
-A level-1 auxiliary file: chapters/elim_com.aux
-Reallocating 'name_of_file' (item size: 1) to 31 items.
-A level-1 auxiliary file: chapters/app_manual_instal.aux
-Reallocating 'name_of_file' (item size: 1) to 24 items.
-A level-1 auxiliary file: chapters/app_manual.aux
-Reallocating 'name_of_file' (item size: 1) to 27 items.
-A level-1 auxiliary file: chapters/app_manual_id.aux
-Reallocating 'name_of_file' (item size: 1) to 29 items.
-A level-1 auxiliary file: chapters/app_manual_info.aux
-Reallocating 'name_of_file' (item size: 1) to 31 items.
-A level-1 auxiliary file: chapters/app_manual_brillo.aux
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: chapters/Legal.aux
 I found no \citation commands---while reading file Report.aux
@@ -40,7 +20,7 @@ I found no \bibdata command---while reading file Report.aux
 I found no \bibstyle command---while reading file Report.aux
 You've used 0 entries,
             0 wiz_defined-function locations,
-            100 strings with 919 characters,
+            90 strings with 660 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0

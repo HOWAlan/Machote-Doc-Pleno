@@ -1,5 +1,4 @@
-\xpginauxfiletrue 
-\selectlanguage *{spanish}
+\selectlanguage *[]{spanish}
 \contentsline {chapter}{Información}{i}{chapter*.3}%
 \contentsline {chapter}{Resumen}{ii}{chapter*.4}%
 \contentsline {chapter}{Índice general}{iii}{section*.5}%
